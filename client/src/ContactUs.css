@@ -1,0 +1,77 @@
+.contact-details-section {
+  background-color: #f7f9fc;
+}
+
+.contact-box {
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.social-media-icons .social-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-media-icons .social-icon:hover {
+  transform: scale(1.2);
+}
+.custom-accordion .accordion-button {
+  background-color: #343a40; /* Dark background for header */
+  color: #f8f9fa; /* Light text color */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: #0062cc; /* Custom color when expanded */
+  color: #fff;
+}
+
+.custom-accordion .accordion-button:hover {
+  background-color: #0056b3; /* Darker hover effect */
+  color: #fff;
+}
+
+.custom-accordion .accordion-body {
+  background-color: #f8f9fa; /* Light background for body */
+  color: #343a40; /* Dark text color */
+  border: 1px solid #ddd;
+}
+
+.custom-accordion .accordion-body:hover {
+  background-color: #e9ecef; /* Slight hover effect for body */
+}
+.faq-accordion .accordion-item {
+  border: 1px solid rgba(0, 76, 146, 0.2);
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.faq-accordion .accordion-header {
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.faq-accordion .accordion-header:hover {
+  background-color: #004e92;
+}
+
+.faq-accordion .accordion-body {
+  background-color: #ffffff;
+  color: #333;
+  border-top: none;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}

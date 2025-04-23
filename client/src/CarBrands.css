@@ -1,0 +1,65 @@
+/* Card Styling */
+.brand-card {
+    background: linear-gradient(135deg, #000428, #004e92); /* Dark blue to black gradient */
+    color: #00d2ff; /* Aqua for text and accents */
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .table-wrapper {
+    max-height: 450px; /* Scroll for overflow */
+    overflow-y: auto;
+  }
+  
+  /* Table Styling */
+  .dashboard-table th {
+    background: #000428; /* Dark gradient for header */
+    color: #00d2ff; /* Aqua text */
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px solid #00d2ff;
+  }
+  
+  .dashboard-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Button Styling */
+  .add-brand-btn {
+    background-color: #004e92;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .add-brand-btn:hover {
+    background-color: #00d2ff;
+    color: #000;
+  }
+  
+  /* Input Field Styling */
+  .brand-input {
+    border: 2px solid #00d2ff;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .brand-input:focus {
+    box-shadow: 0 0 8px #00d2ff;
+    border-color: #00d2ff;
+  }
+  
+  /* Add scrollbar customization */
+  .table-wrapper::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .table-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(0, 210, 255, 0.8); /* Aqua scrollbar */
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,61 @@
+/* Consistent Styling for Queries Dashboard */
+.dashboard-card {
+    background: linear-gradient(135deg, #000428, #004e92); /* Dark blue to black gradient */
+    color: #00d2ff; /* Aqua for text and accents */
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .table-wrapper {
+    max-height: 450px; /* Add scrolling for overflow */
+    overflow-y: auto;
+  }
+  
+  .dashboard-table th {
+    background: #000428; /* Dark gradient for header */
+    color: #00d2ff; /* Aqua text */
+    text-transform: uppercase;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #00d2ff;
+  }
+  
+  .dashboard-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dashboard-table .icon {
+    color: #00d2ff;
+    margin-right: 5px;
+  }
+  
+  .btn-light {
+    background-color: #1c2541; /* Dark theme */
+    color: #00d2ff; /* Aqua text */
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn-light:hover {
+    background-color: #00d2ff;
+    color: #000;
+    transform: translateY(-3px);
+  }
+  
+  /* Add scrollbar styling */
+  .table-wrapper::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .table-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(0, 210, 255, 0.8); /* Aqua scrollbar */
+    border-radius: 4px;
+  }
+  

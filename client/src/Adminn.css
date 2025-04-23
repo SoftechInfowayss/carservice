@@ -1,0 +1,108 @@
+/* AdminLogin.css */
+
+.admin-login-page {
+    background: linear-gradient(135deg, #000428, #004e92);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+  }
+  
+  /* Header Gradient and Icon */
+  .header-gradient {
+    background: linear-gradient(135deg, #004e92, #000428);
+    color: #ffffff;
+    padding: 20px 15px;
+    border-bottom: 1px solid #004e92;
+    border-radius: 10px;
+  }
+  
+  .icon-admin {
+    font-size: 2.5rem;
+    color: #f9dc5c;
+  }
+  
+  .login-card {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-card h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000428;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #000428, #004e92);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .form-input {
+    border-radius: 8px;
+    border: 1px solid #004e92;
+    padding: 10px;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #004e92;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 78, 146, 0.5);
+  }
+  
+  .btn-login {
+    background: linear-gradient(135deg, #000428, #004e92);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+  }
+  
+  .btn-login:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #004e92, #000428);
+    box-shadow: 0px 5px 15px rgba(0, 78, 146, 0.4);
+  }
+  
+  .alert-danger {
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-color: rgba(255, 0, 0, 0.3);
+    color: #ff0000;
+  }
+  
+  .card-footer {
+    background: linear-gradient(135deg, #004e92, #000428);
+    color: #ffffff;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .header-gradient h2 {
+      font-size: 1.5rem;
+    }
+  
+    .form-input {
+      font-size: 0.9rem;
+    }
+  
+    .btn-login {
+      font-size: 1rem;
+    }
+  }
+  

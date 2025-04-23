@@ -1,0 +1,95 @@
+.booking-page {
+  background: linear-gradient(135deg, #f3f8ff, #eef2f7);
+  min-height: 100vh;
+  padding: 50px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.booking-page h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.card-body p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+  transition: all 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+button[type="submit"] {
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(135deg, #66b2ff, #004e92);
+  box-shadow: 0 4px 15px rgba(0, 78, 146, 0.4);
+}
+
+form label {
+  font-weight: 500;
+  color: #333;
+}
+
+form input,
+form select,
+form textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #004e92;
+  box-shadow: 0 0 5px rgba(0, 78, 146, 0.5);
+}
+
+form textarea {
+  resize: none;
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #004e92, #66b2ff);
+  color: white;
+}
+
+.modal-footer button {
+  background: linear-gradient(135deg, #004e92, #66b2ff);
+  color: white;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.modal-footer button:hover {
+  background: linear-gradient(135deg, #66b2ff, #004e92);
+  box-shadow: 0 4px 10px rgba(0, 78, 146, 0.3);
+}

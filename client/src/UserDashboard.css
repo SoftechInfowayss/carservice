@@ -1,0 +1,68 @@
+.user-dashboard {
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+.profile-card, .quick-actions, .notifications, .activity-log {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+}
+
+.table-hover tbody tr:hover {
+  background: #f1f1f1;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+.greeting-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.greeting-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.greeting-card:hover {
+  transform: translateY(-5px);
+}
+
+.greeting-card h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.greeting-card p {
+  color: #d1d1d1;
+}
+.greeting-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 100px; /* Adjust the height as needed */
+  width: 100px;  /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.greeting-icon {
+  color: #004e92;
+  font-size: 60px; /* Adjust the font size of the icon */
+}

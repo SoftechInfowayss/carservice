@@ -1,0 +1,136 @@
+/* Overall Page Background */
+.sign-up-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #d3e6f2, #a1c2e7); /* Soft gradient background */
+}
+
+/* Hero Section */
+.hero-side {
+    color: #fff;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), 
+                url('https://media.istockphoto.com/id/1364951753/photo/auto-service-interior-background-with-cars-on-the-lift.jpg?s=612x612&w=0&k=20&c=jd3IpV-koWUZrSHkwSwSdcA-s7bCRwcY233pSQafUJ4=') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 2rem;
+    border-radius: 10px;
+}
+.split-section{
+    padding-left: 40px;
+}
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Form Card */
+.sign-up-card {
+    border-radius: 10px;
+    max-width: 500px;
+    background: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.sign-up-card:hover {
+    transform: translateY(-5px);
+}
+
+.sign-up-heading {
+    color: #004e92;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+/* Input Icons */
+.input-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.input-icon-symbol {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #004e92;
+    font-size: 1.2rem;
+}
+
+input.form-control {
+    padding-left: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #cfd8dc;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s;
+}
+
+input.form-control:focus {
+    border-color: #004e92;
+    box-shadow: 0 0 5px rgba(0, 78, 146, 0.2);
+}
+
+/* Gender Options */
+.gender-options {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gender-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.gender-option input[type="radio"] {
+    accent-color: #004e92;
+}
+
+/* Submit Button */
+button {
+    background: linear-gradient(135deg, #004e92, #000428);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.75rem 0;
+    border-radius: 30px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: #003366;
+    transform: scale(1.03);
+}
+
+/* Responsive Card Animation */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
