@@ -1,47 +1,51 @@
-# Car Service
+# 🚗 GetCarService
 
-<div align="left">
-  <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/EXPRESS-000000?style=for-the-badge&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/BOOTSTRAP-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-</div>
+GetCarService is a full-stack MERN (MongoDB, Express, React, Node.js) web application that allows users to book car services online. Admins can manage services and bookings, while users can browse, book, and view their service history.
 
----
+![Home Page Screenshot](screenshots/home.png)
+![User Dashboard Screenshot](screenshots/dashboard.png)
+![Booking Page Screenshot](screenshots/booking.png)
 
-An advanced full-stack **Car Service** website built using the **MERN stack** (MongoDB, Express, React, Node.js) and **Bootstrap** for the UI. This project provides a seamless experience for users to:
+## 🔗 Live Demo
 
-- 🔐 Register and log in securely
-- 📅 Book car services
-- 📋 Manage and view bookings via user dashboard
-- 🖥️ Navigate a clean and responsive interface
-
-This application ensures a user-friendly booking experience with powerful backend management.
+*Deployed at:* [https://getcarservice.netlify.app](https://getcarservice.netlify.app)  
+(Replace with your actual live link if different)
 
 ---
 
-## 🚗 Car Service Website Screenshots
+## 🛠 Tech Stack
 
-### 🔍 Homepage Preview
-![Homepage Screenshot](./screenshots/Home.png)
-
----
-
-### ℹ️ About Us Page
-![About Us Screenshot](./screenshots/About.png)
+- *Frontend:* React, React-Bootstrap, CSS
+- *Backend:* Node.js, Express.js
+- *Database:* MongoDB
+- *Authentication:* JWT & bcrypt
+- *Deployment:* Netlify (Frontend), Render / Vercel / Railway (Backend)
 
 ---
 
-### 📞 Contact Us Page
-![Contact Us Screenshot](./screenshots/Contact.png)
+## 📦 Features
+
+- 🚘 Browse available car services
+- 🔐 User authentication (Sign Up / Login)
+- 📅 Book car services with preferred brand and model
+- 👤 User Dashboard to manage profile and view bookings
+- 🧑‍💼 Admin panel to manage car services and bookings
 
 ---
 
-### 📅 Booking Page
-![Booking Page Screenshot](./screenshots/Booking.png)
+## 🚀 Getting Started
 
----
+### Prerequisites
 
-### 🧑‍💼 User Dashboard
-![User Dashboard Screenshot](./screenshots/User.png)
+- Node.js (v14 or later)
+- MongoDB (local or Atlas)
+- npm or yarn
+
+### Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/tarunaaaa/GetCarService.git
+cd GetCarService
+npm install
