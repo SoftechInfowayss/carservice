@@ -2,9 +2,9 @@
 
 GetCarService is a full-stack MERN (MongoDB, Express, React, Node.js) web application that allows users to book car services online. Admins can manage services and bookings, while users can browse, book, and view their service history.
 
-![Home Page Screenshot](screenshots/home.png)
-![User Dashboard Screenshot](screenshots/dashboard.png)
-![Booking Page Screenshot](screenshots/booking.png)
+![Home Page Screenshot](screenshots/Home.png)
+![User Dashboard Screenshot](screenshots/User.png)
+![Booking Page Screenshot](screenshots/Booking.png)
 
 ## 🔗 Live Demo
 
