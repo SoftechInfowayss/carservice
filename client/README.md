@@ -39,7 +39,7 @@ GetCarService is a full-stack MERN (MongoDB, Express, React, Node.js) web applic
 
 - Node.js (v14 or later)
 - MongoDB (local or Atlas)
-- npm or yarn
+
 
 ### Installation
 
