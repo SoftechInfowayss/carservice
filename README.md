@@ -39,15 +39,6 @@ GetCarService is a full-stack MERN (MongoDB, Express, React, Node.js) web applic
 - MongoDB (local or Atlas)
 - npm or yarn
 
-### Installation
-
-Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/tarunaaaa/GetCarService.git
-cd GetCarService
-npm install
-
 ## 🚗 Car Service Website Screenshots
 
 ### 🔍 Homepage Preview
@@ -72,3 +63,14 @@ npm install
 
 ### 🧑‍💼 User Dashboard
 ![User Dashboard Screenshot](./screenshots/User.png)
+
+
+### Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/tarunaaaa/GetCarService.git
+cd GetCarService
+npm install
+
