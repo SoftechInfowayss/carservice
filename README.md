@@ -2,30 +2,8 @@
 
 GetCarService is a full-stack MERN (MongoDB, Express, React, Node.js) web application that allows users to book car services online. Admins can manage services and bookings, while users can browse, book, and view their service history.
 
-## 🚗 Car Service Website Screenshots
-
-### 🔍 Homepage Preview
-![Homepage Screenshot](./screenshots/Home.png)
-
----
-
-### ℹ About Us Page
-![About Us Screenshot](./screenshots/About.png)
-
----
-
-### 📞 Contact Us Page
-![Contact Us Screenshot](./screenshots/Contact.png)
-
----
-
-### 📅 Booking Page
-![Booking Page Screenshot](./screenshots/Booking.png)
-
----
-
-### 🧑‍💼 User Dashboard
-![User Dashboard Screenshot](./screenshots/User.png)
+##  Responsive UI
+ ![Responsive  ui](./screenshots/responsive.jpg)
 
 ## 🔗 Live Demo
 
@@ -69,3 +47,28 @@ Clone the repo and install dependencies:
 git clone https://github.com/tarunaaaa/GetCarService.git
 cd GetCarService
 npm install
+
+## 🚗 Car Service Website Screenshots
+
+### 🔍 Homepage Preview
+![Homepage Screenshot](./screenshots/Home.png)
+
+---
+
+### ℹ About Us Page
+![About Us Screenshot](./screenshots/About.png)
+
+---
+
+### 📞 Contact Us Page
+![Contact Us Screenshot](./screenshots/Contact.png)
+
+---
+
+### 📅 Booking Page
+![Booking Page Screenshot](./screenshots/Booking.png)
+
+---
+
+### 🧑‍💼 User Dashboard
+![User Dashboard Screenshot](./screenshots/User.png)
